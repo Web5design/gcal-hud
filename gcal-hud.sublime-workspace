@@ -32,6 +32,16 @@
 	},
 	"file_history":
 	[
+		"/home/joe/Documents/_src/Github/gcal-hud/views/layout.jade",
+		"/home/joe/Documents/_src/Github/gcal-hud/app.js",
+		"/home/joe/Documents/_src/Github/gcal-hud/package.json",
+		"/home/joe/Documents/_src/Github/gcal-hud/routes/index.js",
+		"/home/joe/Documents/_src/Github/gcal-hud/controllers/home.js",
+		"/home/joe/Documents/_src/Github/gcal-hud/controllers/test.js",
+		"/home/joe/Documents/_src/Github/gcal-hud/public/css/site.less",
+		"/home/joe/Documents/_src/Github/gcal-hud/public/css/site.css",
+		"/home/joe/Documents/_src/Github/gcal-hud/routes/test.js",
+		"/home/joe/Documents/_src/Github/gcal-hud/.gitignore",
 		"/usr/share/applications/sublime.desktop",
 		"/usr/share/applications/defaults.list"
 	],
@@ -81,7 +91,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{

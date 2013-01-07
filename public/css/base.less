@@ -1,0 +1,65 @@
+@formulary-accent-color: #27AAE1;
+@formulary-secondary-accent-color: #3D4C4C;
+@inventory-accent-color: #48CCA0;
+@devices-accent-color: #B5DD26;
+@reports-accent-color: #7F3F98;
+@settings-accent-color: #94A1B2;
+@settings-secondary-accent-color: #3D4C4C;
+
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6b6b6b;
+
+  .busy-box {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: 50% 50% no-repeat #FFF;
+    background-image: url('../img/loading.gif');
+    .opacity(0.7);
+  }
+
+  &.busy {
+    overflow: hidden;
+
+    .busy-box {
+      display: block;
+    }
+  }
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.opacity (@opacity: 1) {
+  @percent: @opacity*100;
+  filter:alpha(opacity=@percent);
+  -moz-opacity: @opacity;
+  -khtml-opacity: @opacity;
+  opacity: @opacity;
+}
+
+.rounded (@radius: 3px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.border-radius (@tl: 3px, @tr: 3px, @br: 3px, @bl: 3px) {
+  border-radius: @arguments;
+  -moz-border-radius: @arguments;
+  -webkit-border-radius: @arguments;
+}
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
